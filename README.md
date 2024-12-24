@@ -1,45 +1,80 @@
-# Student List App
+Student List App
 
-#### Backend Setup
+This project allows you to manage and view a list of students. Follow the steps below to set up the backend and frontend services.
 
-1. **Navigate to the Backend Directory**:
-    ```bash
-    cd backend
-    ```
+Backend Setup
 
-2. **Install Dependencies**:
-    ```bash
-    npm install
-    ```
+Navigate to the Backend Directory:
+Open your terminal and run:
 
-3. **Start the Server**:
-    ```bash
-    npm run dev
-    ```
-   The backend server will start on `http://localhost:3000`.
+cd backend
 
-#### Frontend Setup
+Install Required Dependencies:
+Install all necessary Node.js packages:
 
-1. **Navigate to the Frontend Directory**:
-    ```bash
-    cd frontend
-    ```
+npm install
 
-2. **Install Dependencies**:
-    ```bash
-    npm install
-    ```
+Start the Backend Server:
+Run the development server:
 
-3. **Start the React App**:
-    ```bash
-    npm run dev
-    ```
-   The frontend will start on `http://localhost:5173`.
+npm run dev
 
+The backend server will be accessible at: http://localhost:3000.
 
-### API Endpoint
+Frontend Setup
 
-| Method | Endpoint                       | Description                   |
-|--------|--------------------------------|-------------------------------|
-| GET    | `/api/v1/student/list`         | Fetches the list of students. |
+Navigate to the Frontend Directory:
+Open your terminal and run:
+
+cd frontend
+
+Install Required Dependencies:
+Install all necessary Node.js packages:
+
+npm install
+
+Start the React Application:
+Run the development server:
+
+npm run dev
+
+The frontend application will be accessible at: http://localhost:5173.
+
+API Endpoints
+
+The backend server exposes the following API endpoint:
+
+Method
+
+Endpoint
+
+Description
+
+GET
+
+/api/v1/student/list
+
+Retrieves the list of students.
+
+Additional Information
+
+Prerequisites:
+
+Ensure you have Node.js installed on your system.
+
+Use a .env file to store sensitive configurations if required.
+
+Modifying Backend:
+
+To add or update API routes, navigate to the backend/routes directory and make the necessary changes.
+
+Configuring Frontend:
+
+Frontend environment variables can be configured in the frontend/.env file.
+
+Troubleshooting:
+
+Refer to the README files inside the backend and frontend directories for detailed guidance.
+
+If you encounter any issues or have further questions, feel free to reach out or consult the project documentation.
 
